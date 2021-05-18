@@ -16,7 +16,7 @@ class  CountryController{
             CountryModel(id: UUID(), name: "Canada" , population: "37M"),
             CountryModel(id: UUID(), name: "France" , population: "67M"),
             CountryModel(id: UUID(), name: "Italy" , population: "60M"),
-            CountryModel(id: UUID(), name: "China" , population: "1388M")
+            CountryModel(id: UUID(), name: "China" , population: "1389M")
         ]
         
      }
