@@ -18,6 +18,17 @@ struct ContentView: View {
                       
                   }// List
             .navigationBarTitle("Countries", displayMode: .inline)
+            
+            
+            
+            
+            .navigationBarItems(
+                trailing:NavigationLink(destination:
+                    AddCountryView(cityName: "Country")) {
+                    Image(systemName: "plus").foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
+                }
+            )
+                    
         }// Navigation View
         
     }
