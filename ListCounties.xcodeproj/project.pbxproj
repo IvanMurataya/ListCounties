@@ -7,19 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F845F2526544F26005B0C36 /* Detailview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F845F2426544F26005B0C36 /* Detailview.swift */; };
 		5FCBA655265440340020EC4F /* ListCountiesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCBA654265440340020EC4F /* ListCountiesApp.swift */; };
 		5FCBA657265440340020EC4F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCBA656265440340020EC4F /* ContentView.swift */; };
 		5FCBA659265440350020EC4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FCBA658265440350020EC4F /* Assets.xcassets */; };
 		5FCBA65C265440350020EC4F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FCBA65B265440350020EC4F /* Preview Assets.xcassets */; };
+		5FCBA665265440850020EC4F /* CountryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCBA664265440850020EC4F /* CountryModel.swift */; };
+		5FCBA668265440B30020EC4F /* CountryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCBA667265440B30020EC4F /* CountryController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F845F2426544F26005B0C36 /* Detailview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detailview.swift; sourceTree = "<group>"; };
 		5FCBA651265440340020EC4F /* ListCounties.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListCounties.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FCBA654265440340020EC4F /* ListCountiesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCountiesApp.swift; sourceTree = "<group>"; };
 		5FCBA656265440340020EC4F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5FCBA658265440350020EC4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5FCBA65B265440350020EC4F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5FCBA65D265440350020EC4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FCBA664265440850020EC4F /* CountryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryModel.swift; sourceTree = "<group>"; };
+		5FCBA667265440B30020EC4F /* CountryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +39,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F845F2126544E3D005B0C36 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5FCBA656265440340020EC4F /* ContentView.swift */,
+				5F845F2426544F26005B0C36 /* Detailview.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5F845F2226544E97005B0C36 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5FCBA664265440850020EC4F /* CountryModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5F845F2326544EC7005B0C36 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5FCBA667265440B30020EC4F /* CountryController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		5FCBA648265440340020EC4F = {
 			isa = PBXGroup;
 			children = (
@@ -53,7 +84,9 @@
 			isa = PBXGroup;
 			children = (
 				5FCBA654265440340020EC4F /* ListCountiesApp.swift */,
-				5FCBA656265440340020EC4F /* ContentView.swift */,
+				5F845F2326544EC7005B0C36 /* Controllers */,
+				5F845F2226544E97005B0C36 /* Model */,
+				5F845F2126544E3D005B0C36 /* Views */,
 				5FCBA658265440350020EC4F /* Assets.xcassets */,
 				5FCBA65D265440350020EC4F /* Info.plist */,
 				5FCBA65A265440350020EC4F /* Preview Content */,
@@ -140,6 +173,9 @@
 			files = (
 				5FCBA657265440340020EC4F /* ContentView.swift in Sources */,
 				5FCBA655265440340020EC4F /* ListCountiesApp.swift in Sources */,
+				5F845F2526544F26005B0C36 /* Detailview.swift in Sources */,
+				5FCBA668265440B30020EC4F /* CountryController.swift in Sources */,
+				5FCBA665265440850020EC4F /* CountryModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
